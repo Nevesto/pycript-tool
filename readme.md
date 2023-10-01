@@ -1,8 +1,8 @@
-A small tool for encrypting data.![preview](https://github.com/Nevesto/port-scanner/assets/87545167/cb4f3da7-5259-4aed-a786-e61db9e35b25)
+![preview](https://github.com/Nevesto/port-scanner/assets/87545167/cb4f3da7-5259-4aed-a786-e61db9e35b25)
 
 # About
 
-A small tool for encrypting data.A small tool for encrypting data.https://github.com/Nevesto/pycript-tool.git
+A small tool for encrypting data.
 
 ## Usage
 
