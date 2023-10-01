@@ -24,7 +24,6 @@ A tool to check data integrity using Base64, encrypt and decrypt requests, among
 
 # TODO
 
-- Receive JSON files.
 - Digital Signature.
 - Send encrypted files and information.
 - Cryptographic Hash.
