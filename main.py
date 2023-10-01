@@ -22,15 +22,28 @@ def calculate_base64(data):
 
     return ''.join(result)
 
+def decode_base64(encoded_data):
+    base64_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 
+    base64_mapping = {char: index for index, char in enumerate(base64_chars)}
 
+    decoded_bytes = bytearray()
+    buffer = 0
+    bits = 0
 
+    for char in encoded_data:
+        if char in base64_mapping:
+            buffer = (buffer << 6) | base64_mapping[char]
+            bits += 6
+            if bits >= 8:
+                decoded_bytes.append((buffer >> (bits - 8)) & 0xFF)
+                bits -= 8
 
-
-
-
+    return bytes(decoded_bytes)
 
 original_data = "secreto"
+base64_encoded = "c2VjcmV0bw=="
 base64_calculated = calculate_base64(original_data.encode('utf-8'))
-
+decoded_data = decode_base64(base64_encoded)
 print("Calculated Base64:", base64_calculated)
+print("Decoded:", decoded_data.decode('utf-8'))
