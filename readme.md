@@ -2,24 +2,24 @@
 
 # About
 
-A tool to check data integrity using Base64, encrypt and decrypt requests, among other future features.
+A small tool for encrypting data.
 
 ## Usage
 
 ```
-    git clone https://github.com/Nevesto/base64-Integrity-checker.git
+    git clone https://github.com/Nevesto/pycript-tool.git
 ```
 
 </br>
 
 ```
-    cd base64-Integrity-checker
+    cd pycript-tool
 ```
 
 </br>
 
 ```
-    py or python3 main.py
+    py or python3 main.py -h
 ```
 
 # TODO
