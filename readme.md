@@ -19,7 +19,7 @@ A small tool for encrypting data.
 </br>
 
 ```
-    py or python3 main.py
+    py or python3 main.py -h
 ```
 
 # TODO
