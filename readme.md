@@ -24,7 +24,6 @@ A small tool for encrypting data.
 
 # TODO
 
-- Receive JSON files.
 - Digital Signature.
 - Send encrypted files and information.
 - Cryptographic Hash.
